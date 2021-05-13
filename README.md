@@ -9,7 +9,7 @@ both encrypt readable plaintext into unreadable ciphertext and then decrypt it b
 The goal of cryptanalysis is to decode ciphers and codes without knowing their key or encryption algorithm.
 
 Our project today is based off of the Anson Stager, cofounder of Western Union and head 
-of the US Military Telegraph department. He have the Union a huge advantage over the 
+of the US Military Telegraph department. He gave the Union a huge advantage over the 
 Confederacy through his Route Transposition Cipher. This cipher was a combination of real 
 words and code words that could be broken down in a matrix. The Route Cipher was one of the 
 most successful military ciphers of all time. Let me show you why. 
