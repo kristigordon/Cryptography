@@ -11,12 +11,36 @@ One goal of cryptography is to use a key to both encrypt readable plaintext into
 ciphertext and then decrypt it back to plaintext. The goal of cryptanalysis is to decode 
 ciphers and codes without knowing their key or encryption algorithm.
 
+
+![Alt text](https://th.bing.com/th/id/OIP.SXFyZBXsZQnZZv04TIqQCwAAAA?pid=ImgDet&rs=1 "Hacker small") 
+
 Our project today is based off of the Anson Stager, cofounder of Western Union and head 
 of the US Military Telegraph department. He have the Union a huge advantage over the 
 Confederacy through his Route Transposition Cipher. This cipher was a combination of real 
 words and code words that could be broken down in a matrix. The Route Cipher was one of the 
 most successful military ciphers of all time. Let me show you why. 
 
+We will start with this outline of the project:
+```
+Load the ciphertext string.
+Convert ciphertext into a cipherlistto split out individual words.
+Get input for the number of columns and rows.
+Get input for the key.
+Convert key into a list to split out individual numbers.
+Create a new list for the translation matrix.
+     For every number in the key:
+     Create a new list and append every nitems (n= # of rows) from the cipherlist.
+     Use the sign of key number to decide whether to read the row forward or backward.
+     Using the chosen direction, add the new list to the matrix. The index of each
+     new list is based on the column number used in the key.
+Create a new string to hold translation results.
+For range of rows:
+     For the nested list in translation matrix:
+          Remove the last word in nested list
+          Add the word to the translation string.
+Print the translation string.
+```
+Here is the Cipher:
 ```
 ciphertext = "16 12 8 4 0 1 5 9 13 17 18 14 10 6 2 3 7 11 15 19"
 ```
@@ -88,6 +112,13 @@ Output = [['16', '12', '8', '4', '0'], ['17', '13', '9', '5', '1'], ['18', '14',
 ```
 We iterated through each list, and also reversed the 2nd and 4th so that it is easier to decode. 
 
-# You are now ready to level up. Please, use your powers for good. 
+You should now be able to easily decrypt a route transposition cipher with a known key or
+test suspected routes by using the script’s clear and accessible interface to adjust the key.
+
+
+![Alt text](https://th.bing.com/th/id/R58c1980a42ebad7d994cc62f90a5d7d8?rik=vQR%2bYTG6VW3I5Q&riu=http%3a%2f%2fecx.images-amazon.com%2fimages%2fI%2f41MAP2TotSL._SY300_QL70_.jpg&ehk=57kf8Zxs7DpviMiiQ4E9IINxfkHGhhnXz3YnsKxjA9U%3d&risl=&pid=ImgRaw "Warning") 
+This project contained some basic elements decoding and encrpyting. 
+
+# Please, use your powers for good. 
 
 ![Alt text](https://www.securemac.com/wp-content/uploads/2017/03/AdobeStock_123396196.jpeg "Hacker")
