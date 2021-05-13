@@ -3,16 +3,12 @@
 
 # Cryptography
 
+![Alt text](https://th.bing.com/th/id/OIP.SXFyZBXsZQnZZv04TIqQCwAAAA?pid=ImgDet&rs=1 "Hacker small") 
 Cryptography is the science of secure communication through the use of codes and ciphers. A
 code replaces whole words with other words; a cipher scrambles or replaces the letters in
-words (so technically, Morse code is really Morse cipher). 
-
-One goal of cryptography is to use a key to both encrypt readable plaintext into unreadable 
-ciphertext and then decrypt it back to plaintext. The goal of cryptanalysis is to decode 
-ciphers and codes without knowing their key or encryption algorithm.
-
-
-![Alt text](https://th.bing.com/th/id/OIP.SXFyZBXsZQnZZv04TIqQCwAAAA?pid=ImgDet&rs=1 "Hacker small") 
+words (so technically, Morse code is really Morse cipher). One goal of cryptography is to use a key to 
+both encrypt readable plaintext into unreadable ciphertext and then decrypt it back to plaintext. 
+The goal of cryptanalysis is to decode ciphers and codes without knowing their key or encryption algorithm.
 
 Our project today is based off of the Anson Stager, cofounder of Western Union and head 
 of the US Military Telegraph department. He have the Union a huge advantage over the 
