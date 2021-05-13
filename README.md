@@ -1,9 +1,7 @@
-![Alt text](https://coverfiles.alphacoders.com/260/thumb-1920-26096.jpg "Matrix Banner")
-
+![image](https://user-images.githubusercontent.com/66803124/118068385-22a99d80-b357-11eb-80de-4ef231727ac3.png)
 
 # Cryptography
 
-![Alt text](https://th.bing.com/th/id/OIP.SXFyZBXsZQnZZv04TIqQCwAAAA?pid=ImgDet&rs=1 "Hacker small") 
 Cryptography is the science of secure communication through the use of codes and ciphers. A
 code replaces whole words with other words; a cipher scrambles or replaces the letters in
 words (so technically, Morse code is really Morse cipher). One goal of cryptography is to use a key to 
@@ -15,6 +13,8 @@ of the US Military Telegraph department. He have the Union a huge advantage over
 Confederacy through his Route Transposition Cipher. This cipher was a combination of real 
 words and code words that could be broken down in a matrix. The Route Cipher was one of the 
 most successful military ciphers of all time. Let me show you why. 
+
+![image](https://user-images.githubusercontent.com/66803124/118068395-263d2480-b357-11eb-84c3-d9f123c558a0.png)
 
 We will start with this outline of the project:
 ```
@@ -36,6 +36,10 @@ For range of rows:
           Add the word to the translation string.
 Print the translation string.
 ```
+![Alt text](https://th.bing.com/th/id/R6e22d85938ea5c815469d4db2a6a2c4f?rik=slmPNh%2fo%2fLNUlg&riu=http%3a%2f%2fimages4.fanpop.com%2fimage%2fphotos%2f23600000%2f-The-Matrix-Banner-the-matrix-23646371-1600-200.jpg&ehk=6YcTYyWWUPsuyjW3vPJpaJBOb4L4tgkEqNg%2bMWLkBCE%3d&risl=&pid=ImgRaw)
+
+![image](https://user-images.githubusercontent.com/66803124/118067767-0fe29900-b356-11eb-95ca-167f8c9f9c4c.png)
+
 Here is the Cipher:
 ```
 ciphertext = "16 12 8 4 0 1 5 9 13 17 18 14 10 6 2 3 7 11 15 19"
@@ -96,10 +100,12 @@ We then want to add the column_items into this spot.
 Now we need to update the values of the start and the stop otherwise, we will continue using the first index through the loop.
      # example : [['16', '12', '8', '4', '0'], ['0', '4', '8', '12', '16'], ['16', '12', '8', '4', '0'], ['0', '4', '8', '12', '16']]
 Originally, the start and stop variables were defined by rows, so we now need to add rows to them again to keep iterating through the list. 
-     ```
-     start = start + rows
-     stop = stop + rows
-     ```
+
+![image](https://user-images.githubusercontent.com/66803124/118068091-9e571a80-b356-11eb-8fe4-6fdc4b4faef7.png)
+```
+start = start + rows
+stop = stop + rows
+```
 ```
 print(matrix)
 ```
@@ -111,10 +117,10 @@ We iterated through each list, and also reversed the 2nd and 4th so that it is e
 You should now be able to easily decrypt a route transposition cipher with a known key or
 test suspected routes by using the script’s clear and accessible interface to adjust the key.
 
+![image](https://user-images.githubusercontent.com/66803124/118068404-2dfcc900-b357-11eb-81b9-3d73fc8e8684.png)
 
-![Alt text](https://th.bing.com/th/id/R58c1980a42ebad7d994cc62f90a5d7d8?rik=vQR%2bYTG6VW3I5Q&riu=http%3a%2f%2fecx.images-amazon.com%2fimages%2fI%2f41MAP2TotSL._SY300_QL70_.jpg&ehk=57kf8Zxs7DpviMiiQ4E9IINxfkHGhhnXz3YnsKxjA9U%3d&risl=&pid=ImgRaw "Warning") 
-This project contained some basic elements decoding and encrpyting. 
+![image](https://user-images.githubusercontent.com/66803124/118068597-7b793600-b357-11eb-8fba-1e7c0bbb10ec.png)
 
-# Please, use your powers for good. 
+![image](https://user-images.githubusercontent.com/66803124/118068822-e1fe5400-b357-11eb-825f-d1d81299cb24.png)
+![image](https://user-images.githubusercontent.com/66803124/118068344-0c9bdd00-b357-11eb-860e-47b9a4dbdf99.png)
 
-![Alt text](https://www.securemac.com/wp-content/uploads/2017/03/AdobeStock_123396196.jpeg "Hacker")
