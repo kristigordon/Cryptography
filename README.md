@@ -40,6 +40,8 @@ Print the translation string.
 
 ![image](https://user-images.githubusercontent.com/66803124/118067767-0fe29900-b356-11eb-95ca-167f8c9f9c4c.png)
 
+This is the Matrix created using rows and columns to divvy up the words given and allow it to be recreated by recording the output of going down a column and up the next depending on the key given. This is shown in a list of numbers 1-19 written out in order, but after they go through the matrix with the key (-1, 2, -3, 4), you can see the output is very jumbled. 
+
 Here is the Cipher:
 ```
 ciphertext = "16 12 8 4 0 1 5 9 13 17 18 14 10 6 2 3 7 11 15 19"
