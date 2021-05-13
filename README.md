@@ -1,4 +1,5 @@
-![Alt text](https://www.bing.com/images/search?view=detailV2&ccid=iWy6saMl&id=0636DDA65F1D7A929EB5628FA7E4A877860267C8&thid=OIP.iWy6saMl1QteZO3lqfzX0QHaCv&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR896cbab1a325d50b5e64ede5a9fcd7d1%3frik%3dyGcChneo5KePYg%26riu%3dhttp%253a%252f%252fstatic.myfbcover.com%252fcovers%252fMovies%252fMatrix.png%26ehk%3d3Mb0KUy%252fcetXnqTWX6p2VQGbUL9JsmLtQRl4b%252bJjJQ0%253d%26risl%3d%26pid%3dImgRaw&exph=315&expw=851&q=Matrix+Facebook+Cover&simid=607987444450145666&ck=C615285514AA15B77C5595E2A6A8C8FC&selectedIndex=7&FORM=IRPRST&ajaxhist=0&ajaxserp=0)
+![Alt text](https://coverfiles.alphacoders.com/260/thumb-1920-26096.jpg "Matrix Banner")
+
 
 # Cryptography
 
@@ -85,4 +86,8 @@ print(matrix)
 ```
 Output = [['16', '12', '8', '4', '0'], ['17', '13', '9', '5', '1'], ['18', '14', '10', '6', '2'], ['19', '15', '11', '7', '3']]
 ```
-# We iterated through each list, and also reversed the 2nd and 4th so that it is easier to decode. 
+We iterated through each list, and also reversed the 2nd and 4th so that it is easier to decode. 
+
+# You are now ready to level up. Please, use your powers for good. 
+
+![Alt text](https://www.securemac.com/wp-content/uploads/2017/03/AdobeStock_123396196.jpeg "Hacker")
