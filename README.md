@@ -1,5 +1,4 @@
 ![image](https://user-images.githubusercontent.com/66803124/118068385-22a99d80-b357-11eb-80de-4ef231727ac3.png)
-
 # Cryptography
 
 Cryptography is the science of secure communication through the use of codes and ciphers. A
@@ -47,7 +46,7 @@ Here is the Cipher:
 ciphertext = "16 12 8 4 0 1 5 9 13 17 18 14 10 6 2 3 7 11 15 19"
 ```
 
-Cipher list prints out each element in the list instead of printing '1' then '6' it is '16'. (splits at space)
+Cipher list prints out each element in the list instead of printing '1' then '6' it prints '16'. (splits at space)
 ```
 cipher_list = ciphertext.split()
 ```
